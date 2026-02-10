@@ -2,7 +2,7 @@
 import aiohttp
 import logging
 
-API_KEY = "ВАШ_API_КЛЮЧ_БОТА"
+API_KEY = "8088366355:AAEbbEmb3uCT_5hR9kOVL20oe0a6zEM8pcw"
 URL = "https://api.subgram.org/get-sponsors"
 
 async def get_subgram_sponsors(user_id: int, chat_id: int, **kwargs) -> dict | None:
